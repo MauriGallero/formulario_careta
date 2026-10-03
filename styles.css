@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  background-color: rgba(15, 15, 180, 0.7);
+  color: #ffffcc;
+}
+
+.form-container {
+  background-color: #1a1a8a;
+  border-radius: 10px;
+  padding: 20px;
+  width: 85%;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  color: #ffffcc;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgba(5, 5, 180, 0.7);
+  font-size: 1.5em;
+  padding: 3%;
+  border-radius: 2px;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
